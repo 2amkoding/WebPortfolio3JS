@@ -1,11 +1,15 @@
-import React, {Suspense} from 'react'
+import React, { Suspense } from 'react'
 import {Canvas} from "@react-three/fiber"
-import {PerspectiveCamera} from "@react-three/drei";
+import {Float, PerspectiveCamera} from "@react-three/drei";
 import HackerRoom from "../component/HackerRoom.jsx";
 import CanvasLoader from "../component/CanvasLoader.jsx";
 //import {Leva, useControls} from "leva";
 import {useMediaQuery} from "react-responsive";
 import {calculateSizes} from "../constants/index.js";
+import Earth from "../component/Earth.jsx";
+import ReactLogo from "../component/ReactLogo.jsx";
+import Cube from "../component/Cube.jsx";
+import Rings from "../component/Rings.jsx";
 
 const Hero = () => {
     // const controls = useControls('HackerRoom',{
@@ -73,6 +77,16 @@ const Hero = () => {
                             scale={sizes.deskScale}
                             rotation={[0, -Math.PI, 0]}
                         />
+
+                        <group>
+                            <Earth position={sizes.targetPosition} />
+                            {/*<Float speed={4} rotationIntensity={1} floatIntesnity={2} position={sizes.reactLogoPosition}>*/}
+                            {/*    <ReactLogo />*/}
+                            {/*</Float>*/}
+                            <ReactLogo position={sizes.reactLogoPosition} />
+                            <Cube position={sizes.cubePosition} />
+                            <Rings position={sizes.ringPosition} />
+                        </group>
 
                         <ambientLight intensity={1}/>
                         <directionalLight position={[10, 10, 10]} intensity={0.5}/>
