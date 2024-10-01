@@ -10,6 +10,7 @@ import Earth from "../component/Earth.jsx";
 import ReactLogo from "../component/ReactLogo.jsx";
 import Cube from "../component/Cube.jsx";
 import Rings from "../component/Rings.jsx";
+import HeroCamera from "../component/HeroCamera.jsx";
 
 const Hero = () => {
     // const controls = useControls('HackerRoom',{
@@ -69,14 +70,17 @@ const Hero = () => {
                 <Canvas className="w-full h-full">
                     <Suspense fallback={<CanvasLoader/>}>
                         <PerspectiveCamera makeDefault position={[0, 0, 20]}/>
-                        <HackerRoom
-                            //scale={0.07}
-                            // position={[0, 0, 0]}
-                            // rotation={[0, 280, 0]}
-                            position={sizes.deskPosition}
-                            scale={sizes.deskScale}
-                            rotation={[0, -Math.PI, 0]}
-                        />
+                        <HeroCamera isMobile={isMobile}>
+                            <HackerRoom
+                                //scale={0.07}
+                                // position={[0, 0, 0]}
+                                // rotation={[0, 280, 0]}
+                                position={sizes.deskPosition}
+                                scale={sizes.deskScale}
+                                rotation={[0, -Math.PI, 0]}
+                            />
+                        </HeroCamera>
+
 
                         <group>
                             <Earth position={sizes.targetPosition} />
