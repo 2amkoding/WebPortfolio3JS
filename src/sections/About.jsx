@@ -58,9 +58,11 @@ const [ hasCopied, setHasCopied] = useState(false);
                             />
                         </div>
                             <div>
-                                <p className="grid-headtext">I work remotely across most timezones.</p>
-                                <p className="grid-subtext">I'm based in USA, with remote work available.'</p>
+                                <p className="grid-headtext">I work remotely across most timezones</p>
+                                <p className="grid-subtext">I'm based in USA, with remote work available.</p>
+                                <a href="#contact" className="w-fit">
                                 <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
+                                </a>
                         </div>
                     </div>
                 </div>
@@ -69,7 +71,7 @@ const [ hasCopied, setHasCopied] = useState(false);
                         <img src="/assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
                         <div>
                             <p className="grid-headtext">My Passion for Coding</p>
-                            <p className="grid-subtext">I love solving problems and building things trough code. Learning is my passion.</p>
+                            <p className="grid-subtext">I love solving problems and building with code. Development is my passion.</p>
                         </div>
                     </div>
                 </div>
