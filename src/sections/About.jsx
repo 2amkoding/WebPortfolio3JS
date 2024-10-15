@@ -31,8 +31,8 @@ const [ hasCopied, setHasCopied] = useState(false);
                         <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain"/>
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
-                            <p className="grid-subtext">I specialize in Javascript/Java with a focus on SpringBoot
-                                ecosystems.</p>
+                            <p className="grid-subtext">I specialize in Java, JavaScript, React and MySQL / NoSQL
+                                with a focus on Web-Development.</p>
                         </div>
                     </div>
                 </div>
