@@ -64,7 +64,7 @@ export const myProjects = [
             'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
         href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
         texture: '/textures/project/project1.mp4',
-        logo: '/assets/project-logo1.png',
+        logo: '/assets/productStore.png',
         logoStyle: {
             backgroundColor: '#2A1816',
             border: '0.2px solid #36201D',
@@ -101,7 +101,7 @@ export const myProjects = [
             'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
         href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
         texture: '/textures/project/project2.mp4',
-        logo: '/assets/project-logo2.png',
+        logo: '/assets/netflix.png',
         logoStyle: {
             backgroundColor: '#13202F',
             border: '0.2px solid #17293E',
@@ -138,7 +138,7 @@ export const myProjects = [
             'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
         href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
         texture: '/textures/project/project3.mp4',
-        logo: '/assets/project-logo3.png',
+        logo: '/assets/x.png',
         logoStyle: {
             backgroundColor: '#60f5a1',
             background:
@@ -208,7 +208,7 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Imaginify - AI Photo Manipulation App',
+        title: 'Tent-talk - LaunchCode Capstone Project',
         desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
         subdesc:
             'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
@@ -274,7 +274,7 @@ export const workExperiences = [
         duration: '2022 - Present',
         title: "Consistently ranked top 10% regionally over 2 years by applying S.P.I.N. to turn technical and billing issues into sales outcomes. Awarded Multiple '100 Satisfaction Awards'. Mentored team members to support their growth",
         icon: '/assets/spectrum1.png',
-        animation: 'victory',
+        animation: 'salute',
     },
     {
         id: 3,
@@ -283,6 +283,6 @@ export const workExperiences = [
         duration: '2017 - 2020',
         title: "Started from the bottom now we're here!",
         icon: '/assets/lyft.png',
-        animation: 'salute',
+        animation: 'victory',
     },
 ];
