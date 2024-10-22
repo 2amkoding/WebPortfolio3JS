@@ -62,7 +62,7 @@ export const myProjects = [
         desc: 'Product Store allows users to Create, Update, Delete products.  It showcases the basics of full-stack development with focus on building, testing, and using APIs.',
         subdesc:
             'Built as a unique Software-as-a-Service app with React.js, Node.js, Express.js, MongoDB, and Chakra UI. Product Store is designed for optimal performance and scalability.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQA',
+        href: 'https://www.2amkoding.com',
         texture: '/textures/project/project1.mp4',
         logo: '/assets/productStore.png',
         logoStyle: {
@@ -100,48 +100,11 @@ export const myProjects = [
         ],
     },
     {
-        title: 'Netflix Clone - Video Streaming Platform',
-        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
-        subdesc:
-            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OMA',
-        texture: '/textures/project/project2.mp4',
-        logo: '/assets/netflix.png',
-        logoStyle: {
-            backgroundColor: '#13202F',
-            border: '0.2px solid #17293E',
-            boxShadow: '0px 0px 60px 0px #2F6DB54D',
-        },
-        spotlight: '/assets/spotlight2.png',
-        tags: [
-            {
-                id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
-            },
-        ],
-    },
-    {
         title: 'X (formally Twitter) Clone - Social Media',
         desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
         subdesc:
             'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-        href: 'https://www.youtube.com/watch?v=lEflo_sc82gA',
+        href: 'https://www.2amkoding.com',
         texture: '/textures/project/project3.mp4',
         logo: '/assets/x.png',
         logoStyle: {
@@ -165,13 +128,60 @@ export const myProjects = [
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'Node.js',
+                path: '/assets/nodejs2.png',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Express.js',
+                path: '/assets/expressJS.png',
+            },
+            {
+                id: 5,
+                name: 'MongoDB',
+                path: '/assets/mongoDB.png',
+            },
+        ],
+    },
+    {
+        title: 'Netflix Clone - Video Streaming Platform',
+        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+        subdesc:
+            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+        href: 'https://www.2amkoding.com',
+        texture: '/textures/project/project2.mp4',
+        logo: '/assets/netflix.png',
+        logoStyle: {
+            backgroundColor: '#13202F',
+            border: '0.2px solid #17293E',
+            boxShadow: '0px 0px 60px 0px #2F6DB54D',
+        },
+        spotlight: '/assets/spotlight2.png',
+        tags: [
+            {
+                id: 1,
+                name: 'React.js',
+                path: '/assets/react.svg',
+            },
+            {
+                id: 2,
+                name: 'TailwindCSS',
+                path: 'assets/tailwindcss.png',
+            },
+            {
+                id: 3,
+                name: 'Node.js',
+                path: '/assets/nodejs2.png',
+            },
+            {
+                id: 4,
+                name: 'Express.js',
+                path: '/assets/expressJS.png',
+            },
+            {
+                id: 5,
+                name: 'MongoDB',
+                path: '/assets/mongoDB.png',
             },
         ],
     },
@@ -180,7 +190,7 @@ export const myProjects = [
         desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
         subdesc:
             'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-        href: 'https://www.youtube.com/watch?v=PuOVqP_cjkEA',
+        href: 'https://www.2amkoding.com',
         texture: '/textures/project/project4.mp4',
         logo: '/assets/project-logo4.png',
         logoStyle: {
@@ -202,13 +212,18 @@ export const myProjects = [
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'MongoDB',
+                path: '/assets/mongoDB.png',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'Redis',
+                path: '/assets/redis.png',
+            },
+            {
+                id: 5,
+                name: 'Stripe',
+                path: '/assets/stripe.png',
             },
         ],
     },
@@ -217,7 +232,7 @@ export const myProjects = [
         desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
         subdesc:
             'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-        href: 'https://www.youtube.com/watch?v=Ahwoks_dawUA',
+        href: 'https://www.2amkoding.com',
         texture: '/textures/project/project5.mp4',
         logo: '/assets/project-logo5.png',
         logoStyle: {
