@@ -61,8 +61,8 @@ export const myProjects = [
         title: 'Product Store - Online Store',
         desc: 'Product Store allows users to Create, Update, Delete products.  It showcases the basics of full-stack development with focus on building, testing, and using APIs.',
         subdesc:
-            'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+            'Built as a unique Software-as-a-Service app with React.js, Node.js, Express.js, MongoDB, and Chakra UI. Product Store is designed for optimal performance and scalability.',
+        href: 'https://www.youtube.com/watch?v=zfAb95tJvZQA',
         texture: '/textures/project/project1.mp4',
         logo: '/assets/productStore.png',
         logoStyle: {
@@ -79,18 +79,23 @@ export const myProjects = [
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'Node.js',
+                path: 'assets/nodejs2.png',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'Express.js',
+                path: '/assets/expressJS.png',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'MongoDB',
+                path: '/assets/mongoDB.png',
+            },
+            {
+                id: 5,
+                name: 'Chakra-UI',
+                path: '/assets/chakraUI.png',
             },
         ],
     },
@@ -99,7 +104,7 @@ export const myProjects = [
         desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
         subdesc:
             'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+        href: 'https://www.youtube.com/watch?v=y5vE8y_f_OMA',
         texture: '/textures/project/project2.mp4',
         logo: '/assets/netflix.png',
         logoStyle: {
@@ -136,7 +141,7 @@ export const myProjects = [
         desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
         subdesc:
             'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-        href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        href: 'https://www.youtube.com/watch?v=lEflo_sc82gA',
         texture: '/textures/project/project3.mp4',
         logo: '/assets/x.png',
         logoStyle: {
@@ -175,7 +180,7 @@ export const myProjects = [
         desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
         subdesc:
             'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
-        href: 'https://www.youtube.com/watch?v=PuOVqP_cjkE',
+        href: 'https://www.youtube.com/watch?v=PuOVqP_cjkEA',
         texture: '/textures/project/project4.mp4',
         logo: '/assets/project-logo4.png',
         logoStyle: {
@@ -212,7 +217,7 @@ export const myProjects = [
         desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
         subdesc:
             'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-        href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
+        href: 'https://www.youtube.com/watch?v=Ahwoks_dawUA',
         texture: '/textures/project/project5.mp4',
         logo: '/assets/project-logo5.png',
         logoStyle: {
@@ -272,7 +277,7 @@ export const workExperiences = [
         name: 'Spectrum',
         pos: 'Lead Sales Specialist',
         duration: '2022 - Present',
-        title: "Consistently ranked top 10% regionally over 2 years by applying S.P.I.N. to turn technical and billing issues into sales outcomes. Awarded Multiple '100 Satisfaction Awards'. Mentored team members to support their growth",
+        title: "Consistently ranked top 10% regionally over 2 years by applying S.P.I.N. to turn technical and billing issues into sales outcomes. Awarded Multiple '100% Satisfaction' Awards. Mentored team members to support their growth.",
         icon: '/assets/spectrum1.png',
         animation: 'salute',
     },

@@ -22,7 +22,7 @@ const [ hasCopied, setHasCopied] = useState(false);
                         <div>
                             <p className="grid-headtext"> HI, I'm June</p>
                             <p className="grid-subtext">As a fullstack developer I am honing my skills in frontend and
-                                backend development, with interests in AI, ML, VR and Web3.</p>
+                                backend development, with interests in AI, VR and Web3.</p>
                         </div>
                     </div>
                 </div>
