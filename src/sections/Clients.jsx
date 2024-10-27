@@ -1,5 +1,5 @@
 import React from 'react'
-import {clientReviews} from "../constants/index.js";
+import {currentRotation} from "../constants/index.js";
 
 const Clients = () => {
     return (
@@ -7,7 +7,7 @@ const Clients = () => {
             <h3 className="head-text">Hear from My Peers</h3>
 
             <div className="client-container">
-                {clientReviews.map(({ id, name, review, img, position }) => (
+                {currentRotation.map(({ id, name, review, img, position }) => (
                     <div key={id} className="client-review">
                         <div>
                             <p className="text-white font-light">{review}</p>

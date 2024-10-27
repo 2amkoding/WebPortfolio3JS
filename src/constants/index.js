@@ -21,7 +21,7 @@ export const navLinks = [
     },
 ];
 
-export const clientReviews = [
+export const currentRotation = [
     {
         id: 1,
         name: 'Emily Johnson',
@@ -229,9 +229,9 @@ export const myProjects = [
     },
     {
         title: 'Tent-talk - LaunchCode Capstone Project',
-        desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
+        desc: 'TentTalk is an All-in-One App streamlining campsite details, user-reviews, with features like, bear sightings, events, and forecasts. ',
         subdesc:
-            'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
+            'Built with JavaScript, React, Java, Springboot Hibernate, MySQL, and Google API.',
         href: 'https://www.2amkoding.com',
         texture: '/textures/project/project5.mp4',
         logo: '/assets/project-logo5.png',
@@ -249,18 +249,23 @@ export const myProjects = [
             },
             {
                 id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
+                name: 'JavaScript',
+                path: 'assets/javascript.png',
             },
             {
                 id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
+                name: 'Java',
+                path: '/assets/java.png',
             },
             {
                 id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
+                name: 'MySQL',
+                path: '/assets/mysql2.png',
+            },
+            {
+                id: 5,
+                name: 'SpringBoot Hibernate',
+                path: '/assets/springboot.png',
             },
         ],
     },
