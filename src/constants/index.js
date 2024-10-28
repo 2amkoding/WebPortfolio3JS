@@ -148,7 +148,7 @@ export const myProjects = [
         subdesc:
             'A feature-rich entertainment app offering JWT-based authentication, a resonsive UI, and tools to search, watching trailers, and explore content.  It includes features like search history, similar content recommendations, and an engaging landing page.',
         href: 'https://www.2amkoding.com',
-        texture: '/textures/project/project2.mp4',
+        texture: '/textures/project/netflix.mp4',
         logo: '/assets/netflix.png',
         logoStyle: {
             backgroundColor: '#13202F',
