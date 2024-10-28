@@ -101,10 +101,9 @@ export const myProjects = [
     },
     {
         title: 'X (formally Twitter) Clone - Social Media',
-        desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+        desc: 'A digital town square where people can freely exchange ideas in real time. A place for open dialogue, innovation, and connecting worldwide.',
         subdesc:
-            'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-        href: 'https://www.2amkoding.com',
+            'Supports features like JWT authentication, user recommendations, posting, comenting and more. Cloudinary manages image uploads aand a notification system keeps users engaged.',
         texture: '/textures/project/project3.mp4',
         logo: '/assets/x.png',
         logoStyle: {
@@ -145,9 +144,9 @@ export const myProjects = [
     },
     {
         title: 'Netflix Clone - Video Streaming Platform',
-        desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+        desc: 'A global streaming service that offers a vast library of TV shows, movies, documentaries, and original content accessible on-demand. Known for its personalized recommendations and ad-free viewing experience',
         subdesc:
-            'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
+            'A feature-rich entertainment app offering JWT-based authentication, a resonsive UI, and tools to search, watching trailers, and explore content.  It includes features like search history, similar content recommendations, and an engaging landing page.',
         href: 'https://www.2amkoding.com',
         texture: '/textures/project/project2.mp4',
         logo: '/assets/netflix.png',
@@ -187,9 +186,9 @@ export const myProjects = [
     },
     {
         title: 'Ecommerce Platform - Online Commerce',
-        desc: 'Horizon is a comprehensive online banking platform that offers users a centralized finance management dashboard. It allows users to connect multiple bank accounts, monitor real-time transactions, and seamlessly transfer money to other users.',
+        desc: 'TBA..',
         subdesc:
-            'Built with Next.js 14 Appwrite, Dwolla and Plaid, Horizon ensures a smooth and secure banking experience, tailored to meet the needs of modern consumers.',
+            'This e-commerce platform integrates MongoDB and Redis, providing core features like product management, a shopping cart, and secure Stripe-powered checkout with coupon support. Authentication is managed via JWTs with refresh and access tokens, ensuring secure user signups and logins.',
         href: 'https://www.2amkoding.com',
         texture: '/textures/project/project4.mp4',
         logo: '/assets/project-logo4.png',
