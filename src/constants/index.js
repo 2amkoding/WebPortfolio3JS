@@ -287,7 +287,7 @@ export const workExperiences = [
         name: 'LaunchCode',
         pos: 'Web Developer',
         duration: '2024',
-        title: "Earned my Web-Development certificate from LaunchCode while maintaining 45hr work-weeks. It was a stressful but immensely rewarding 9-month journey. Built web-projects using: Javascript + React, Java + Spring Boot, MySQL and Postman.",
+        title: "Earned my Web-Development certificate from LaunchCode while maintaining 45hr work-weeks. It was a stressful but immensely rewarding 9-month journey. Built web-projects using: Javascript, React, Java, Spring Boot, MySQL and Postman.",
         icon: '/assets/launchCode.png',
         animation: 'clapping',
     },
