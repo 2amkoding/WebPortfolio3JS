@@ -63,7 +63,7 @@ export const myProjects = [
         subdesc:
             'Built as a unique Software-as-a-Service app with React.js, Node.js, Express.js, MongoDB, and Chakra UI. Product Store is designed for optimal performance and scalability.',
         href: 'https://www.2amkoding.com',
-        texture: '/textures/project/project1.mp4',
+        texture: '/textures/project/productStoreVid.mov',
         logo: '/assets/productStore.png',
         logoStyle: {
             backgroundColor: '#2A1816',
@@ -104,7 +104,7 @@ export const myProjects = [
         desc: 'A digital town square where people can freely exchange ideas in real time. A place for open dialogue, innovation, and connecting worldwide.',
         subdesc:
             'Supports features like JWT authentication, user recommendations, posting, comenting and more. Cloudinary manages image uploads aand a notification system keeps users engaged.',
-        texture: '/textures/project/project3.mp4',
+        texture: '/textures/project/x.mp4',
         logo: '/assets/x.png',
         logoStyle: {
             backgroundColor: '#60f5a1',
@@ -232,7 +232,7 @@ export const myProjects = [
         subdesc:
             'Built with JavaScript, React, Java, Springboot Hibernate, MySQL, and Google API.',
         href: 'https://www.2amkoding.com',
-        texture: '/textures/project/project5.mp4',
+        texture: '/textures/project/comingSoon.mp4',
         logo: '/assets/project-logo5.png',
         logoStyle: {
             backgroundColor: '#1C1A43',

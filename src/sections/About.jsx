@@ -21,8 +21,9 @@ const [ hasCopied, setHasCopied] = useState(false);
                         <img src="/assets/profilephoto.jpg" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain"/>
                         <div>
                             <p className="grid-headtext"> HI, I'm June</p>
-                            <p className="grid-subtext">As a fullstack developer I am honing my skills in frontend and
-                                backend development, with interests in AI, VR and Web3.</p>
+                            <p className="grid-subtext">I am honing my skills as a Full-Stack Programmer with interests in AI, VR and Web3</p>
+                            <br />
+                            <p className="grid-subtext">Along with technology, I love various forms of art.</p>
                         </div>
                     </div>
                 </div>
@@ -31,8 +32,7 @@ const [ hasCopied, setHasCopied] = useState(false);
                         <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:h-[276px] h-fit object-contain"/>
                         <div>
                             <p className="grid-headtext">Tech Stack</p>
-                            <p className="grid-subtext">I specialize in Java, JavaScript, React and MySQL / NoSQL
-                                with a focus on Web-Development.</p>
+                            <p className="grid-subtext">Stack History: Javascript, Java, React, Tailwind, ThreeJS, NextJS, Springboot, NodeJS, MongoDB, MySQL</p>
                         </div>
                     </div>
                 </div>
@@ -58,8 +58,8 @@ const [ hasCopied, setHasCopied] = useState(false);
                             />
                         </div>
                             <div>
-                                <p className="grid-headtext">I work remotely across most timezones</p>
-                                <p className="grid-subtext">I'm based in USA, with remote work available.</p>
+                                <p className="grid-headtext">Actively seeking remote positions</p>
+                                <p className="grid-subtext">I'm based in USA - Scroll the globe!</p>
                                 <a href="#contact" className="w-fit">
                                 <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
                                 </a>
