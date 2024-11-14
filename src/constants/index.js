@@ -62,7 +62,7 @@ export const myProjects = [
         desc: 'Product Store allows users to Create, Update, Delete products.  It showcases the basics of full-stack development with focus on building, testing, and using APIs.',
         subdesc:
             'Built as a unique Software-as-a-Service app with React.js, Node.js, Express.js, MongoDB, and Chakra UI. Product Store is designed for optimal performance and scalability.',
-        href: 'https://www.2amkoding.com',
+        href: 'https://youtu.be/DA57XtNrZUU',
         texture: '/textures/project/productStoreVid.mov',
         logo: '/assets/productStore.png',
         logoStyle: {
